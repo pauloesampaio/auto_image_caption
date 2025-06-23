@@ -28,7 +28,7 @@ Respond with only the JSON. Do not include explanations or extra text.
 """
 
 st.set_page_config(layout="wide")
-st.title("🧠 Product Caption Generator")
+st.title("Automatic product caption generator")
 
 image_url = st.text_input("Enter image URL:")
 image_pil = False
