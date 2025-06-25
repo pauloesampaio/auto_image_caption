@@ -49,7 +49,7 @@ This code requires access to Google Gemini 2.0 flash (set up credentials as .env
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/product-caption-generator.git
+git clone https://github.com/pauloesampaio/auto_image_caption.git
 cd product-caption-generator
 ```
 
