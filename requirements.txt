@@ -2,6 +2,6 @@ google-genai==1.7.0
 google-cloud-aiplatform
 pillow
 python-dotenv
-streamlit
+streamlit==1.46.0
 requests
 pydantic
