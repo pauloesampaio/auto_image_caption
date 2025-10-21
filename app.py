@@ -5,6 +5,7 @@ from utils import (
 )
 import json
 import streamlit as st
+st.set_page_config(page_title="Automatic product caption generator", layout="wide")
 
 
 @st.cache_resource
@@ -27,8 +28,7 @@ Please respond in JSON format like:
 Respond with only the JSON. Do not include explanations or extra text.
 """
 
-st.set_page_config(layout="wide")
-st.title("Automatic product caption generator")
+
 
 image_url = st.text_input("Enter image URL:")
 image_pil = False
